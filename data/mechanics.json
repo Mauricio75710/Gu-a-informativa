@@ -1,0 +1,122 @@
+[
+    {
+        "id": "d20_system",
+        "title": "Sistema D20 y Tiradas de Habilidad",
+        "category": "Fundamentos",
+        "summary": "Casi todas las acciones con posibilidad de fallo se resuelven lanzando un dado de 20 caras (1d20) y sumando tus bonificadores.",
+        "explanation": "Cuando intentas atacar a un enemigo, persuadir a un guardia o forzar una cerradura, el juego establece una Clase de Dificultad (CD) o Clase de Armadura (CA). Lanzas un dado d20 y sumas tu modificador de atributo más tu bonificador de competencia (si eres competente). Si el resultado iguala o supera la dificultad, tienes éxito. Sacar un 20 natural siempre es éxito crítico; sacar un 1 natural siempre es pifia (fallo automático).",
+        "example": "Intentas abrir un cofre con CD 15 usando a Astarion. Lanzas 1d20 y sacas un 10. Sumas +4 por su Destreza (18) y +3 por su competencia en Juego de Manos = 17. Como 17 es mayor que 15, abres el cofre."
+    },
+    {
+        "id": "attributes_modifiers",
+        "title": "Atributos, Modificadores y Competencias",
+        "category": "Personaje",
+        "summary": "Tus 6 atributos principales determinan tus bonificadores en combate, magia y diálogos.",
+        "explanation": "Los seis atributos son Fuerza (ataques cuerpo a cuerpo y salto), Destreza (ataques a distancia, armas sutiles, CA e iniciativa), Constitución (puntos de golpe y concentración), Inteligencia (magia de Mago e Investigación), Sabiduría (magia de Clérigo/Druida y Percepción) y Carisma (magia de Bardo/Brujo/Hechicero/Paladín y Persuasión). Cada 2 puntos por encima de 10 otorga un +1 de modificador (ej. 10 = +0, 12 = +1, 14 = +2, 16 = +3, 18 = +4).",
+        "example": "Un Guerrero con Fuerza 16 (+3) y bonificador de competencia +2 (niveles 1-4) suma un total de +5 a sus tiradas de ataque con espada larga."
+    },
+    {
+        "id": "saving_throws",
+        "title": "Tiradas de Salvación y Clase de Dificultad (CD)",
+        "category": "Fundamentos",
+        "summary": "Cuando recibes un hechizo o trampa, tiras un dado para resistir o reducir sus efectos.",
+        "explanation": "Cada conjuro ofensivo indica qué atributo usa el defensor para intentar resistirlo: Destreza (esquivar explosiones como Bola de Fuego), Constitución (resistir venenos o frío), Sabiduría (resistir control mental como Inmovilizar Persona), Fuerza (evitar ser empujado o derribado), Inteligencia (ataques psíquicos) o Carisma (destierro). La dificultad (CD) del lanzador se calcula como: 8 + bonificador de competencia + modificador de lanzamiento.",
+        "example": "Gale tiene Inteligencia 18 (+4) y competencia +3, por lo que la CD de sus conjuros es 8 + 4 + 3 = 15. Un goblin atacado con Bola de Fuego debe sacar 15 o más en su salvación de Destreza para recibir solo la mitad del daño."
+    },
+    {
+        "id": "ac_hp",
+        "title": "Clase de Armadura (CA) y Puntos de Golpe (PG)",
+        "category": "Combate",
+        "summary": "La CA mide qué tan difícil es golpearte; los PG representan cuánto daño puedes soportar antes de caer.",
+        "explanation": "La Clase de Armadura (CA) no reduce el daño recibido, sino que determina el número que un atacante debe igualar o superar en su tirada de ataque para acertarte. Las armaduras ligeras suman todo tu modificador de Destreza, las medias suman hasta +2 de Destreza, y las pesadas ofrecen protección fija alta sin sumar Destreza. Llevar un escudo añade +2 extra a tu CA.",
+        "example": "Shadowheart lleva una Cota de Escamas (CA 14), tiene Destreza 14 (+2) y porta un escudo (+2). Su CA total es 18, por lo que los enemigos necesitan sacar 18 o más en su tirada para dañarla."
+    },
+    {
+        "id": "advantage_disadvantage",
+        "title": "Ventaja y Desventaja",
+        "category": "Combate",
+        "summary": "Tira dos dados d20 en lugar de uno y quédate con el resultado más alto (Ventaja) o el más bajo (Desventaja).",
+        "explanation": "La Ventaja aumenta drásticamente tus probabilidades de acertar y duplica tu probabilidad de golpe crítico. Se obtiene atacando desde terreno elevado (a distancia), oculto en las sombras, o contra enemigos derribados, cegados o paralizados. La Desventaja ocurre al disparar a un enemigo pegado a ti con arco o atacar en la oscuridad sin visión nocturna. Si tienes ambas a la vez, se cancelan mutuamente.",
+        "example": "Astarion se esconde con Acción Astuta antes de disparar su arco. Al atacar desde el sigilo tiene Ventaja: tira dos d20, obtiene un 4 y un 17, y usa automáticamente el 17."
+    },
+    {
+        "id": "action_economy",
+        "title": "Economía de Acciones, Iniciativa y Reacciones",
+        "category": "Combate",
+        "summary": "En cada turno de combate dispones de Movimiento, 1 Acción, 1 Acción Adicional y 1 Reacción por ronda.",
+        "explanation": "Al iniciar el combate se tira Iniciativa (1d4 + modificador de Destreza en BG3) para decidir el orden de turnos. En tu turno puedes moverte (normalmente 9 m), realizar una Acción principal (atacar, lanzar la mayoría de hechizos, correr o ayudar) y una Acción Adicional (saltar, empujar, beber una poción o usar habilidades rápidas como Palabra de Curación). Las Reacciones ocurren fuera de tu turno, como realizar un ataque de oportunidad si un enemigo huye de tu alcance o lanzar Contrahechizo.",
+        "example": "Un Paladín puede usar su Acción para atacar dos veces (a partir de nivel 5), beber una poción de velocidad con su Acción Adicional y reservar su Reacción para castigar con un ataque de oportunidad."
+    },
+    {
+        "id": "resistances_vulnerabilities",
+        "title": "Resistencias, Inmunidades y Vulnerabilidades",
+        "category": "Combate",
+        "summary": "El tipo de daño elemental o físico determina si un enemigo recibe la mitad, cero o el doble de daño.",
+        "explanation": "En Baldur's Gate 3 existen 13 tipos de daño (Contundente, Perforante, Cortante, Fuego, Frío, Relámpago, Ácido, Veneno, Trueno, Fuerza, Radiante, Necrótico y Psíquico). Si una criatura tiene Resistencia a un tipo, recibe la mitad del daño; si tiene Inmunidad, recibe 0; si tiene Vulnerabilidad, recibe el doble de daño. Puedes consultar todas las resistencias de cualquier enemigo haciendo clic derecho -> Examinar.",
+        "example": "Los esqueletos son vulnerables al daño Contundente (martillos y mazas infligen el doble de daño), mientras que los Tieflings tienen resistencia natural al Fuego."
+    },
+    {
+        "id": "surfaces_combos",
+        "title": "Superficies Elementales y Reacciones del Entorno",
+        "category": "Combate",
+        "summary": "El suelo del campo de batalla interactúa dinámicamente con tus hechizos y flechas elementales.",
+        "explanation": "Puedes crear y combinar superficies para multiplicar tu daño: el Agua aplica el estado 'Mojado' (otorga vulnerabilidad doble a Relámpago y Frío, y puede electrificarse o congelarse). La Grasa y las Telarañas son altamente inflamables y explotan con una chispa de fuego. La Sangre puede electrificarse o congelarse para hacer resbalar a los enemigos.",
+        "example": "Lanza 'Crear Agua' (o arroja una garrafa de agua) sobre un grupo de enemigos y luego dispara 'Relámpago en Cadena' o 'Rayo de Escarcha' para infligir el doble de daño total."
+    },
+    {
+        "id": "status_conditions",
+        "title": "Estados Alterados Clave",
+        "category": "Combate",
+        "summary": "Efectos temporales que incapacitan, debilitan o potencian a las criaturas durante el combate.",
+        "explanation": "Conocer los estados te permite ganar peleas difíciles: 'Derribado' hace que el enemigo pierda movimiento al levantarse y otorga ventaja a los ataques cuerpo a cuerpo contra él; 'Cegado' impide lanzar conjuros a distancia y da ventaja a todos los atacantes; 'Paralizado' o 'Dormido' convierte cualquier golpe a menos de 3 metros en un crítico automático; 'Silenciado' impide lanzar cualquier conjuro con componente verbal.",
+        "example": "Lanzar el conjuro 'Silencio' sobre un mago jefe le impide usar casi todos sus hechizos ofensivos mientras permanezca dentro de la burbuja."
+    },
+    {
+        "id": "concentration",
+        "title": "Concentración en Conjuros",
+        "category": "Magia",
+        "summary": "Muchos conjuros poderosos requieren mantener la concentración activa y solo puedes sostener uno a la vez.",
+        "explanation": "Si un personaje está concentrado en un hechizo (como Bendición, Acelerar o Espíritus Guardianes) y lanza otro conjuro que también requiera concentración, el primero se cancela de inmediato. Además, cada vez que el lanzador recibe daño, debe superar una tirada de salvación de Constitución (CD 10 o la mitad del daño recibido) o perderá el hechizo.",
+        "example": "Gale mantiene Acelerar sobre Lae'zel. Si recibe 24 puntos de daño, deberá superar una salvación de Constitución de CD 12 (la mitad de 24) para no romper el efecto y dejar letárgica a Lae'zel."
+    },
+    {
+        "id": "illithid_powers",
+        "title": "Poderes Ilícidos y Renacuajos Azotamentes",
+        "category": "Personaje",
+        "summary": "Consume especímenes de parásitos azotamentes para desbloquear un árbol de habilidades psiónicas.",
+        "explanation": "A medida que derrotas líderes del Absoluto y exploras laboratorios, encontrarás frascos con especímenes de parásitos. Al consumirlos (desde el icono rojo junto al minimapa), desbloqueas poderes psiónicos pasivos y activos muy potentes, como 'Suerte de los Reinos Lejanos' (convierte un impacto normal en crítico garantizado una vez por descanso largo) o 'Reacción Psiónica'.",
+        "example": "Asignar 'Suerte de los Reinos Lejanos' a un Paladín le permite garantizar un golpe crítico en el momento exacto para combinarlo con su Castigo Divino de máximo nivel."
+    },
+    {
+        "id": "alchemy_crafting",
+        "title": "Alquimia, Pociones y Elixires",
+        "category": "Supervivencia",
+        "summary": "Recolecta hierbas, cristales y partes de monstruos para fabricar pociones, venenos y granadas.",
+        "explanation": "Al recoger ingredientes del entorno (como orejas de hiena, pétalos de bálsamo o sales), puedes abrir el menú de Alquimia (tecla H). Cada 3 ingredientes iguales producen una esencia o sal, que luego se combina con otra base para crear pociones de curación, recubrimientos para armas o elixires. Recuerda: las pociones duran unos pocos turnos, mientras que los Elixires duran hasta el siguiente Descanso Largo.",
+        "example": "Un Mago de Transmutación con alta Sabiduría y competencia en Medicina puede fabricar dos pociones en lugar de una cada vez que supera una prueba de Medicina CD 15 al alquimizar."
+    },
+    {
+        "id": "rests",
+        "title": "Descansos Cortos y Descansos Largos",
+        "category": "Supervivencia",
+        "summary": "Gestiona tus recursos recuperando salud y habilidades entre combates o avanzando la historia en el campamento.",
+        "explanation": "Dispones de 2 Descansos Cortos por día: restauran la mitad de tus Puntos de Golpe máximos y recargan recursos clave como los espacios de conjuro de Brujo, puntos de Ki del Monje, Acción Súbita del Guerrero e Inspiración Bárdica (desde nivel 5). El Descanso Largo requiere 40 suministros de campamento (80 en modo Estratega), restaura toda tu salud y espacios de conjuro, y activa escenas clave de historia con tus compañeros.",
+        "example": "Después de una pelea difícil en la Infraoscuridad, usa un Descanso Corto para curar al equipo y devolverle a Wyll sus dos espacios de conjuro sin gastar comida."
+    },
+    {
+        "id": "stealth_dialogues",
+        "title": "Sigilo, Diálogos y Pruebas Sociales",
+        "category": "Exploración",
+        "summary": "Resuelve encuentros sin derramar sangre o prepara emboscadas posicionando a tu grupo antes del combate.",
+        "explanation": "Al pulsar la tecla de sigilo verás los conos de visión enemigos en rojo. Mientras permanezcas fuera de ellos o en zonas oscuras (manteniendo Shift para ver niveles de iluminación), puedes robar bolsillos o iniciar combates causando el estado 'Sorprendido' (hace perder el primer turno entero a los enemigos). En diálogos, las habilidades de Persuasión, Intimidación y Engaño permiten evitar jefes enteros o conseguir recompensas extra.",
+        "example": "Antes de hablar con un mercader o jefe, lanza el truco Guía con Shadowheart sobre tu personaje principal para sumar +1d4 gratuito a tus tiradas de Persuasión."
+    },
+    {
+        "id": "multiclass_progression",
+        "title": "Progresión y Multiclase",
+        "category": "Personaje",
+        "summary": "Al subir de nivel (hasta nivel 12) puedes continuar en tu clase o combinar niveles de otras clases.",
+        "explanation": "Cada clase obtiene mejoras importantes en los niveles 4, 8 y 12 (donde eliges una Dote o subes +2 tus atributos) y un pico de poder en nivel 5 (Ataque Adicional o conjuros de nivel 3). En dificultades Equilibrada y Estratega (o cambiando temporalmente desde Explorador), puedes elegir otra clase al subir de nivel para combinar sinergias, aunque retrasarás el acceso a rasgos de nivel alto.",
+        "example": "Un personaje con 5 niveles de Explorador (Acechador de la Penumbra) y 3 niveles de Pícaro (Asesino) combina ataques extra con golpes críticos automáticos al iniciar emboscadas."
+    }
+]

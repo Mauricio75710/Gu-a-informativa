@@ -1,0 +1,128 @@
+[
+    {
+        "id": "elf",
+        "name": "Elfo",
+        "description": "Seres de gracia sobrenatural y longevidad, estrechamente ligados a la magia y los bosques.",
+        "speed": "9 m (30 pies)",
+        "proficiencies": "Espadas largas, espadas cortas, arcos largos, arcos cortos y competencia en Percepción.",
+        "traits": "Visión en la oscuridad, Ascendencia feérica (ventaja contra hechizos de encanto e inmunidad a ser dormido mágicamente).",
+        "subraces": [
+            { "name": "Alto Elfo", "desc": "Aprende un truco gratuito de la lista de mago (usa Inteligencia)." },
+            { "name": "Elfo de los Bosques", "desc": "Velocidad base aumentada a 10.5 m y competencia en Sigilo." }
+        ]
+    },
+    {
+        "id": "tiefling",
+        "name": "Tiefling",
+        "description": "Descendientes de humanos con sangre infernal que enfrentan desconfianza pero poseen poderes ígneos innatos.",
+        "speed": "9 m (30 pies)",
+        "proficiencies": "Ninguna competencia de arma adicional.",
+        "traits": "Visión en la oscuridad, Resistencia infernal (mitad de daño por fuego).",
+        "subraces": [
+            { "name": "Tiefling de Asmodeus", "desc": "Acceso innato a Taumaturgia, Reprensión infernal y Oscuridad." },
+            { "name": "Tiefling de Mefistófeles", "desc": "Acceso innato a Mano de mago, Manos ardientes y Espada flamígera." },
+            { "name": "Tiefling de Zariel", "desc": "Acceso innato a Taumaturgia, Castigo abrasador y Castigo marcador." }
+        ]
+    },
+    {
+        "id": "drow",
+        "name": "Drow",
+        "description": "Elfos de la Infraoscuridad con una sociedad matriarcal implacable y gran afinidad con la oscuridad.",
+        "speed": "9 m (30 pies)",
+        "proficiencies": "Estoques, espadas cortas, ballestas de mano y competencia en Percepción.",
+        "traits": "Visión en la oscuridad superior (24 m), Ascendencia feérica, magia innata (Luces danzantes, Fuego feérico y Oscuridad).",
+        "subraces": [
+            { "name": "Drow Jurado a Lolth", "desc": "Seguidores de la diosa araña Lolth con opciones de diálogo únicas." },
+            { "name": "Drow Seldarine", "desc": "Drows que rechazan a Lolth y buscan su propio camino en la superficie." }
+        ]
+    },
+    {
+        "id": "human",
+        "name": "Humano",
+        "description": "El pueblo más adaptable y ambicioso de Faerûn, capaz de destacar en cualquier profesión.",
+        "speed": "9 m (30 pies)",
+        "proficiencies": "Lanzas, picas, alabardas, gujas, armaduras ligeras y escudos.",
+        "traits": "Versatilidad humana (competencia gratuita en una habilidad adicional a elegir y +25% de capacidad de carga).",
+        "subraces": []
+    },
+    {
+        "id": "githyanki",
+        "name": "Githyanki",
+        "description": "Guerreros implacables del Plano Astral que cazan azotamentes y montan dragones rojos.",
+        "speed": "9 m (30 pies)",
+        "proficiencies": "Armaduras ligeras y medias, espadas cortas, espadas largas y espadones.",
+        "traits": "Conocimiento astral (gana competencia en todas las habilidades de una característica elegida hasta el descanso largo) y poderes psiónicos (Mano de mago invisible, Salto mejorado, Paso brumoso).",
+        "subraces": []
+    },
+    {
+        "id": "dwarf",
+        "name": "Enano",
+        "description": "Resilientes y orgullosos habitantes de las montañas, famosos por su herrería y resistencia al veneno.",
+        "speed": "7.5 m (25 pies)",
+        "proficiencies": "Hachas de batalla, hachas de mano, martillos ligeros y martillos de guerra.",
+        "traits": "Visión en la oscuridad, Resiliencia enana (ventaja contra veneno y resistencia al daño de veneno).",
+        "subraces": [
+            { "name": "Enano Dorado", "desc": "Obtiene +1 punto de golpe máximo adicional por cada nivel." },
+            { "name": "Enano Escudo", "desc": "Competencia gratuita con armaduras ligeras y medias." },
+            { "name": "Duergar", "desc": "Enanos de la Infraoscuridad con visión superior (24 m), ventaja contra ilusiones/parálisis y conjuros innatos de Agrandar e Invisibilidad." }
+        ]
+    },
+    {
+        "id": "half-elf",
+        "name": "Semielfo",
+        "description": "Combinan la curiosidad humana con la gracia élfica, adaptándose a ambos mundos.",
+        "speed": "9 m (30 pies)",
+        "proficiencies": "Lanzas, picas, alabardas, gujas, armaduras ligeras y escudos.",
+        "traits": "Visión en la oscuridad, Ascendencia feérica.",
+        "subraces": [
+            { "name": "Alto Semielfo", "desc": "Aprende un truco gratuito de la lista de mago." },
+            { "name": "Semielfo de los Bosques", "desc": "Velocidad aumentada a 10.5 m y competencia en Sigilo." },
+            { "name": "Semielfo Drow", "desc": "Aprende Luces danzantes, Fuego feérico y Oscuridad." }
+        ]
+    },
+    {
+        "id": "halfling",
+        "name": "Mediano",
+        "description": "Pequeños, ágiles y optimistas; su legendaria suerte los saca de los peores aprietos.",
+        "speed": "7.5 m (25 pies)",
+        "proficiencies": "Ninguna competencia de arma adicional.",
+        "traits": "Suertudo (si sacas un 1 natural en un dado d20, vuelves a tirar automáticamente), Valiente (ventaja contra ser asustado).",
+        "subraces": [
+            { "name": "Mediano Piesligeros", "desc": "Ventaja en todas las pruebas de Sigilo." },
+            { "name": "Mediano Corazónfuerte", "desc": "Ventaja contra veneno y resistencia al daño de veneno." }
+        ]
+    },
+    {
+        "id": "gnome",
+        "name": "Gnomo",
+        "description": "Inventores ingeniosos y curiosos con una notable resistencia mental contra la magia.",
+        "speed": "7.5 m (25 pies)",
+        "proficiencies": "Ninguna competencia de arma adicional.",
+        "traits": "Astucia gnoma (ventaja en tiradas de salvación de Inteligencia, Sabiduría y Carisma).",
+        "subraces": [
+            { "name": "Gnomo de los Bosques", "desc": "Visión en la oscuridad y capacidad innata para Hablar con los animales." },
+            { "name": "Gnomo de las Rocas", "desc": "Visión en la oscuridad y doble bonificador de competencia en Historia." },
+            { "name": "Gnomo de las Profundidades", "desc": "Visión en la oscuridad superior (24 m) y ventaja en pruebas de Sigilo." }
+        ]
+    },
+    {
+        "id": "dragonborn",
+        "name": "Dracónido",
+        "description": "Humanoides orgullosos con ascendencia de dragón que exhalan energía elemental devastadora.",
+        "speed": "9 m (30 pies)",
+        "proficiencies": "Ninguna competencia de arma adicional.",
+        "traits": "Arma de aliento elemental y resistencia al tipo de daño de su linaje dracónico.",
+        "subraces": [
+            { "name": "10 Linajes Dracónicos", "desc": "Permite elegir entre linajes cromáticos y metálicos (Fuego, Frío, Rayo, Ácido o Veneno)." }
+        ]
+    },
+    {
+        "id": "half-orc",
+        "name": "Semiorco",
+        "description": "Combatientes formidables de gran resistencia física capaces de sobrevivir a golpes que matarían a otros.",
+        "speed": "9 m (30 pies)",
+        "proficiencies": "Competencia gratuita en Intimidación.",
+        "traits": "Visión en la oscuridad, Aguante incansable (si bajas a 0 PG, quedas a 1 PG una vez por descanso largo), Ataques salvajes (añade un dado extra de daño en golpes críticos cuerpo a cuerpo).",
+        "subraces": []
+    }
+]
