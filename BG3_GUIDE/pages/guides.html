@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guías y Tutoriales - RPG Guide BG3</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/components.css">
+    <link rel="stylesheet" href="../css/database.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container header-content">
+            <a href="../index.html" class="logo"><h1>RPG Guide <span>BG3</span></h1></a>
+            <button class="mobile-menu-btn" id="mobileMenuBtn"><i data-lucide="menu"></i></button>
+            <nav class="main-nav" id="mainNav">
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="classes.html">Clases y Razas</a></li>
+                    <li><a href="spells.html">Hechizos</a></li>
+                    <li><a href="items.html">Objetos</a></li>
+                    <li><a href="guides.html" class="active">Guías</a></li>
+                    <li><a href="favorites.html" class="favorites-link"><i data-lucide="bookmark"></i>Favoritos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h2><i data-lucide="book-open"></i>Guías y Tutoriales Paso a Paso</h2>
+            <p>Aprende desde los fundamentos de tus primeras horas hasta estrategias avanzadas para superar el Modo Honor.</p>
+        </div>
+    </section>
+
+    <main class="container">
+        <div class="filters-bar">
+            <div class="filter-group">
+                <label for="guideSearch">Buscar guía</label>
+                <input type="text" id="guideSearch" class="filter-control" placeholder="Ej. Principiantes, Honor, Adamantina...">
+            </div>
+            <div class="filter-group">
+                <label for="categoryFilter">Categoría</label>
+                <select id="categoryFilter" class="filter-control">
+                    <option value="all">Todas las categorías</option>
+                    <option value="Principiantes">Principiantes</option>
+                    <option value="Equipamiento">Equipamiento</option>
+                    <option value="Combate">Combate</option>
+                    <option value="Compañeros">Compañeros</option>
+                    <option value="Clases">Clases</option>
+                    <option value="Secretos y contenido opcional">Secretos y contenido opcional</option>
+                    <option value="Estrategias avanzadas">Estrategias avanzadas</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="difficultyFilter">Dificultad</label>
+                <select id="difficultyFilter" class="filter-control">
+                    <option value="all">Todas las dificultades</option>
+                    <option value="Básica">Básica</option>
+                    <option value="Intermedia">Intermedia</option>
+                    <option value="Avanzada">Avanzada</option>
+                </select>
+            </div>
+        </div>
+        <div class="db-grid" id="guidesGrid"></div>
+    </main>
+
+    <div class="modal-overlay" id="detailModal">
+        <div class="modal-box">
+            <button class="modal-close" id="closeModalBtn"><i data-lucide="x"></i></button>
+            <div id="modalBody"></div>
+        </div>
+    </div>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>RPG Guide - Iniciativa educativa de fans, no oficial y no afiliada a Larian Studios.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>lucide.createIcons();</script>
+    <script src="../js/data-service.js"></script>
+    <script src="../js/filters.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/favorites.js"></script>
+    <script src="../js/guides.js"></script>
+</body>
+</html>

@@ -1,0 +1,146 @@
+[
+    {
+        "id": "find_a_cure",
+        "name": "Encuentra una cura",
+        "category": "Misión Principal",
+        "act": "Acto 1",
+        "startLocation": "Playa Devastada (tras escapar del Nautiloide)",
+        "characters": "Nettie, Halsin, Sacerdotisa Tripa, Tía Ethel, Omeluum, Voss",
+        "description": "Tras ser infectado con un renacuajo azotamentes, debes buscar desesperadamente a un sanador capaz de extraer el parásito antes de sufrir la ceremorfosis.",
+        "objectives": "Investigar múltiples posibles sanadores en la Costa de la Espada y descubrir la verdadera naturaleza mágica del parásito.",
+        "steps": [
+            "Habla con Nettie en la Arboleda Esmeralda para conocer al archidruida Halsin.",
+            "Rescata a Halsin en el Campamento Goblin o explora otras vías como Omeluum en la Infraoscuridad.",
+            "Viaja hacia las Torres de Alzaluna siguiendo las pistas de Halsin."
+        ],
+        "rewards": "Experiencia de historia, poderes ilícidos desbloqueados y acceso al Acto 2.",
+        "consequences": "Descubres que el parásito está protegido por magia netherina y que la única solución está en el corazón del culto del Absoluto.",
+        "endings": "Conduce directamente a la trama central de las Torres de Alzaluna y Puerta de Baldur."
+    },
+    {
+        "id": "save_the_refugees",
+        "name": "Salva a los refugiados / Asalta la Arboleda",
+        "category": "Misión Principal",
+        "act": "Acto 1",
+        "startLocation": "Arboleda Esmeralda",
+        "characters": "Zevlor, Kagha, Halsin, Minthara, Dror Ragzlin, Sacerdotisa Tripa",
+        "description": "Los refugiados tieflings de Elturel están atrapados entre la hostilidad de los druidas liderados por Kagha y el inminente ataque de los goblins.",
+        "objectives": "Resolver el conflicto entre los tieflings, los druidas y los tres líderes del Campamento Goblin.",
+        "steps": [
+            "Detén el ritual de Kagha (opcionalmente exponiendo su alianza con los Druidas de las Sombras).",
+            "Infiltrate en el Campamento Goblin y derrota a Tripa, Dror Ragzlin y Minthara, o alíate con Minthara.",
+            "Celebra la victoria en tu campamento."
+        ],
+        "rewards": "Armaduras mágicas, acceso continuo a comerciantes como Dammon en actos posteriores y reclutamiento de Halsin.",
+        "consequences": "Si te alías con los goblins y masacras la Arboleda, Wyll y Karlach abandonarán permanentemente tu grupo y perderás a Dammon (impidiendo reparar el corazón de Karlach).",
+        "endings": "Ruta Heroica (salvas a los tieflings y celebras con ellos) o Ruta del Absoluto (tomas la Arboleda junto a Minthara)."
+    },
+    {
+        "id": "adamantine_forge_quest",
+        "name": "La Forja de Adamantina",
+        "category": "Misión Secundaria",
+        "act": "Acto 1",
+        "startLocation": "Grymforge (Infraoscuridad)",
+        "characters": "Dhourn, Filro, Nere, Grym",
+        "description": "Una legendaria forja ancestral yace sumergida bajo la lava de Grymforge, capaz de crear armaduras y armas inmunes a golpes críticos.",
+        "objectives": "Encontrar al menos dos vetas de mineral de mithral, recoger moldes de equipo y activar la forja.",
+        "steps": [
+            "Recolecta dos trozos de mineral de mithral (uno cerca de la lava al oeste y otro tras derrotar a los mephits de magma).",
+            "Inserta un molde (Armadura de Bandas o Escudo) y el mithral en el crisol central y baja la plataforma.",
+            "Abre la válvula de lava y derrota al guardián Grym usando el martillo gigante de la forja."
+        ],
+        "rewards": "Hasta dos objetos de calidad Muy Rara de Adamantina (como la Armadura de Bandas de Adamantina) y el Yelmo de Grym.",
+        "consequences": "Solo existen dos vetas de mithral en todo el juego, por lo que únicamente puedes forjar dos objetos.",
+        "endings": "Obtención del mejor equipo defensivo del Acto 1."
+    },
+    {
+        "id": "blood_of_lathander_quest",
+        "name": "Encuentra la Sangre de Lathander",
+        "category": "Misión Secundaria",
+        "act": "Acto 1",
+        "startLocation": "Monasterio Alba Rosa (Paso de la Montaña)",
+        "characters": "Inquisidor W'wargaz, Lae'zel, Vlaakith",
+        "description": "Un antiguo enigma escondido en las ruinas de un monasterio ocupado por los githyanki protege una de las reliquias más poderosas del juego.",
+        "objectives": "Resolver el puzle de las vidrieras del monasterio para obtener el Blasón del Maestro del Alba y acceder a la cámara secreta.",
+        "steps": [
+            "Coloca las cuatro armas ceremoniales correctas en los pedestales de la sala superior del monasterio para obtener el blasón.",
+            "Tras hablar con Vlaakith en el Crèche Y'llek, gira las estatuas ocultas en la cámara del Inquisidor.",
+            "Inserta el blasón en el pedestal de la trampa solar para desactivar la autodestrucción."
+        ],
+        "rewards": "Maza legendaria 'La Sangre de Lathander' (1d6+3, ceguera a muertos vivientes y resurrección automática).",
+        "consequences": "Si tomas la maza sin colocar el blasón, activarás el arma solar de Lance, destruyendo todo el monasterio en 4 turnos.",
+        "endings": "Obtención segura de la reliquia o escape dramático mientras el monasterio colapsa."
+    },
+    {
+        "id": "lift_shadow_curse",
+        "name": "Levanta la Maldición de las Sombras",
+        "category": "Misión de Compañero",
+        "act": "Acto 2",
+        "startLocation": "Posada de la Última Luz",
+        "characters": "Halsin, Art Cullagh, Thaniel, Oliver",
+        "description": "Las tierras alrededor de las Torres de Alzaluna llevan un siglo sumidas en una oscuridad mortal que corrompe todo ser vivo.",
+        "objectives": "Despertar a Art Cullagh, proteger el portal de Halsin y reunir las dos mitades del espíritu de la tierra.",
+        "steps": [
+            "Consigue el laúd golpeado de Malus Thorm en la Casa de Curación para despertar a Art Cullagh.",
+            "Defiende durante 5 turnos el portal de Halsin junto al lago frente a oleadas de sombras.",
+            "Encuentra a Oliver en la casa en ruinas y convéncelo para que se fusione nuevamente con Thaniel."
+        ],
+        "rewards": "Halsin se une permanentemente como compañero jugable y las tierras comienzan a sanar.",
+        "consequences": "Si abandonas el Acto 2 sin completar esta misión, las Tierras Malditas quedarán condenadas para siempre y Halsin abandonará el grupo.",
+        "endings": "Purificación completa tras derrotar a Ketheric Thorm."
+    },
+    {
+        "id": "find_nightsong",
+        "name": "Encuentra a Canción Nocturna",
+        "category": "Misión Principal",
+        "act": "Acto 2",
+        "startLocation": "Templo de Shar (Tierras Malditas por las Sombras)",
+        "characters": "Shadowheart, Balthazar, Dama Aylin, Ketheric Thorm",
+        "description": "El secreto de la inmortalidad de Ketheric Thorm se oculta en lo más profundo del Templo de Shar, custodiado por pruebas oscuras.",
+        "objectives": "Superar las cuatro pruebas de Shar, reunir las gemas umbrías y decidir el destino de Canción Nocturna en el Reino Sombrío.",
+        "steps": [
+            "Completa las pruebas de Paso Suave, Mismo Ser, Salto de Fe y derrota a Yurgir para obtener las cuatro Gemas Umbrías.",
+            "Desciende al Reino Sombrío (punto de no retorno del Acto 2; completa antes el rescate de prisioneros en Alzaluna).",
+            "Decide junto a Shadowheart si liberar a Dama Aylin o matarla con la Lanza de la Noche."
+        ],
+        "rewards": "Lanza legendaria de Selûne (si la liberas) o Lanza de la Noche de Shar (si la matas), y vulnerabilidad de Ketheric Thorm.",
+        "consequences": "Si Shadowheart mata a Aylin, caerá el escudo protector de la Posada de la Última Luz y morirán todos sus habitantes.",
+        "endings": "Redención de Shadowheart hacia Selûne o ascensión como Justiciaria Oscura."
+    },
+    {
+        "id": "pale_elf_cazador",
+        "name": "El Elfo Pálido (Palacio de Szarr)",
+        "category": "Misión de Compañero",
+        "act": "Acto 3",
+        "startLocation": "Puerta de Baldur (Ciudad Baja)",
+        "characters": "Astarion, Cazador Szarr, Sebastian",
+        "description": "Tras dos siglos de tormento, Astarion se enfrenta finalmente a su creador en el palacio de Szarr antes de que complete un ritual profano.",
+        "objectives": "Infiltrarse en el Palacio de Szarr, llegar a las catacumbas rituales y derrotar a Cazador.",
+        "steps": [
+            "Consigue el diccionario kozakuran y el anillo familiar en las habitaciones superiores del palacio para abrir la puerta sellada.",
+            "Desciende a las mazmorras y derrota a Cazador Szarr en la cámara del ritual.",
+            "Ayuda a Astarion a decidir si completa el ritual para convertirse en Vampiro Ascendido o rompe el bastón para liberar a los engendros."
+        ],
+        "rewards": "Daga Rapsodia (+3 a ataque y daño acumulado), habilidades de Vampiro Ascendido (si asciende) o redención personal de Astarion.",
+        "consequences": "Completar el ritual sacrifica 7.000 almas y transforma la personalidad de Astarion en un señor despótico.",
+        "endings": "Astarion Ascendido o Astarion libre aceptando su naturaleza."
+    },
+    {
+        "id": "house_of_hope_quest",
+        "name": "Libera a Orfeo (Casa de la Esperanza)",
+        "category": "Misión Principal",
+        "act": "Acto 3",
+        "startLocation": "Burdel Caricia de Sharess / Salón del Diablo",
+        "characters": "Raphael, Hope, Orfeo, El Emperador, Lae'zel",
+        "description": "Para liberar al príncipe githyanki Orfeo de su prisión astral necesitas el Martillo Órfico, custodiado en el palacio personal de Raphael en el Averno.",
+        "objectives": "Aceptar el trato de Raphael o abrir un portal infernal con Helsik para robar el Martillo Órfico.",
+        "steps": [
+            "Consigue los ingredientes rituales en el Salón del Diablo para abrir el portal a la Casa de la Esperanza.",
+            "Rescata a Hope en las celdas infernales y roba el Martillo Órfico.",
+            "Derrota a Raphael en la sala del portal antes de regresar a Puerta de Baldur."
+        ],
+        "rewards": "Martillo Órfico, Guantes de Fuerza de Gigante de las Colinas (Fuerza 23), Amuleto de Gran Salud (Constitución 23) y Armadura de la Esperanza.",
+        "consequences": "Permite liberar a Orfeo al final del juego, lo que provoca que El Emperador te abandone y se una al Cerebro Anciano.",
+        "endings": "Liberación del pueblo githyanki bajo el liderazgo de Orfeo o Lae'zel."
+    }
+]

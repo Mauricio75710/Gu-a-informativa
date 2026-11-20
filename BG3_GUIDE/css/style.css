@@ -1,0 +1,115 @@
+/* Importación de tipografías clásicas de fantasía y lectura editorial */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Lora:ital,wght@0,400;0,500;1,400&family=Inter:wght@400;500;600&display=swap');
+
+:root {
+    --bg-main: #0f0e13;
+    --bg-sec: #18161e;
+    --panel: #221f29;
+    --brass: #c5a059;
+    --brass-bright: #e0be79;
+    --brass-dim: rgba(197, 160, 89, 0.28);
+    --crimson: #7a2828;
+    --crimson-glow: rgba(122, 40, 40, 0.45);
+    --arcane: #7e63a8;
+    --text-main: #ebe5d8;
+    --text-sec: #9e9689;
+
+    --font-display: 'Cinzel', 'Palatino Linotype', Georgia, serif;
+    --font-body: 'Lora', Georgia, serif;
+    --font-ui: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    --transition: all 0.25s ease;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg-main);
+    /* Textura sutil de grano + viñeta oscura en los bordes como página de grimorio */
+    background-image: 
+        radial-gradient(circle at 50% 0%, rgba(197, 160, 89, 0.04) 0%, transparent 65%),
+        radial-gradient(circle at 50% 50%, transparent 55%, rgba(0, 0, 0, 0.65) 100%);
+    background-attachment: fixed;
+    color: var(--text-main);
+    font-family: var(--font-body);
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Barra de desplazamiento estilo latón oscuro */
+::-webkit-scrollbar {
+    width: 9px;
+}
+::-webkit-scrollbar-track {
+    background: var(--bg-main);
+    border-left: 1px solid rgba(197, 160, 89, 0.1);
+}
+::-webkit-scrollbar-thumb {
+    background: #2c2735;
+    border: 1px solid var(--brass-dim);
+}
+::-webkit-scrollbar-thumb:hover {
+    background: var(--brass);
+}
+
+a {
+    text-decoration: none;
+    color: var(--brass);
+    transition: var(--transition);
+}
+
+a:hover {
+    color: var(--brass-bright);
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+/* Títulos grabados */
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    margin-bottom: 12px;
+    color: var(--text-main);
+}
+
+/* Separador ornamental de capítulo */
+.section-title {
+    color: var(--brass);
+    font-size: 1.35rem;
+    text-transform: uppercase;
+    letter-spacing: 0.16em;
+    margin: 52px 0 28px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid var(--brass-dim);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    text-align: center;
+}
+
+.section-title::before,
+.section-title::after {
+    content: "";
+    height: 1px;
+    flex: 1;
+    max-width: 120px;
+    background: linear-gradient(90deg, transparent, var(--brass-dim));
+}
+
+.section-title::after {
+    background: linear-gradient(90deg, var(--brass-dim), transparent);
+}
